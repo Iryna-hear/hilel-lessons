@@ -10,4 +10,8 @@ print(number2)
 print(number3)
 print(number4)
 
+result = number1 + number2 + number3 + number4
+print("Result :" , result)
+
+
 
