@@ -1,8 +1,7 @@
 #Написати програму, яка переміщає всі нулі у кінець списку.
 #Ваше завдання — змінити список так, щоб усі нулі опинилися наприкінці списку.
 #Порядок ненульових чисел має зберегтися!
-from tkinter.constants import FIRST
-from unittest import removeResult
+
 
 # move_zeroes = [2, 0, 4, 6, 0, 7]
 # move_zeroes.remove(0)
