@@ -34,8 +34,5 @@
 # print("Result: ", result )
 
 #ДЗ 6.3. Добуток чисел
-# number = int(input("Enter number:"))
-# while number > 9:
-#     products = 1
-#     while number > 0:
+
 #
