@@ -19,6 +19,23 @@
 # print(str(seconds).zfill(2), end= " ")
 
 
+##ДЗ 6.1. Діапазон букв
+# import string
+# from string import ascii_letters
+# letters = string.ascii_letters
+# print(letters)
+# user_e = input("Enter your letters: ")
+#
+# first_l, last_l = user_e.split("-")
+# first_index = string.ascii_letters.index(first_l)
+# second_index = string.ascii_letters.index(last_l)
+# result = string.ascii_letters[first_index:
+#          second_index+1]
+# print("Result: ", result )
 
-
-
+#ДЗ 6.3. Добуток чисел
+# number = int(input("Enter number:"))
+# while number > 9:
+#     products = 1
+#     while number > 0:
+#
