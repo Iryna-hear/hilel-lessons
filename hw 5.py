@@ -51,17 +51,43 @@
 
 
 ##ДЗ 5.1. Ім'я змінної
-import keyword
-import string
-print(keyword.kwlist)
-print(string.punctuation)
+# import keyword
+# import string
+#
+#
+# take_variable = input("Enter variable name:")
+# for name_v in take_variable:
+#     if len(name_v) > 0:
+#       if name_v in keyword.kwlist:
+#           print("False")
+#       elif not name_v[0].isdigit():
+#           is_real = True
+#           print("")
+#           if not name_v.lower():
+#             is_real = True
+#             print("True")
+#           if not name_v.count("_"):
+#             is_real = True
+#             print("True")
+#       for key_word in string.punctuation.replace("_", ""):
+#           if key_word in name_v:
+#               is_real = False
+#               print("False")
+#               break
+#       first_index = name_v.find("_")
+#       if first_index !=  -1:
+#           second_index = name_v.find("_", first_index + 1)
+#           if second_index != -1 and second_index - first_index == 1:
+#               is_real = False
+#               print("False")
+#               if is_real:
+#                print("True")
+#               break
+#       else :
+#          print("False")
+#     else:
+#      print("True")
 
-take_variable = input("Enter variable name:")
-for name_v in take_variable:
-    if name_v in string.punctuation:
-        print("False")
-    elif name_v in keyword.kwlist:
-          print("False")
 
 
 
