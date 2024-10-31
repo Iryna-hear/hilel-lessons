@@ -59,37 +59,23 @@
 # for name_v in take_variable:
 #     if len(name_v) > 0:
 #       if name_v in keyword.kwlist:
-#           print("False")
-#       elif not name_v[0].isdigit():
-#           is_real = True
-#           print("")
-#           if not name_v.lower():
-#             is_real = True
-#             print("True")
-#           if not name_v.count("_"):
-#             is_real = True
-#             print("True")
-#       for key_word in string.punctuation.replace("_", ""):
-#           if key_word in name_v:
-#               is_real = False
-#               print("False")
-#               break
-#       first_index = name_v.find("_")
-#       if first_index !=  -1:
+#           print(f"False, {name_v} is a keyword")
+#       elif not name_v[0].isdigit() and name_v.lower() and name_v.count("") == 0:
+#        is_real = True
+#        for key_word in string.punctuation.replace("_", ""):
+#              if key_word in name_v:
+#                 is_real = False
+#                 print("False")
+#                 break
+#        first_index = name_v.find("_")
+#        if first_index !=  -1:
 #           second_index = name_v.find("_", first_index + 1)
 #           if second_index != -1 and second_index - first_index == 1:
-#               is_real = False
-#               print("False")
-#               if is_real:
-#                print("True")
-#               break
-#       else :
-#          print("False")
+#             is_real = False
+#             print(f"Error, in {name_v} more than one underscore")
+#        if is_real:
+#           print(f"True, {name_v} is a valid variable name")
+#        else:
+#          print("rhfrkjgv")
 #     else:
-#      print("True")
-
-
-
-
-
-
+#       print("False, variable name can't be empty")
