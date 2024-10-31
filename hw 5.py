@@ -50,18 +50,18 @@
 #     print("Too long hashtag")
 
 
+##ДЗ 5.1. Ім'я змінної
+import keyword
+import string
+print(keyword.kwlist)
+print(string.punctuation)
 
-
-
-
-
-
-
-
-
-
-
-
+take_variable = input("Enter variable name:")
+for name_v in take_variable:
+    if name_v in string.punctuation:
+        print("False")
+    elif name_v in keyword.kwlist:
+          print("False")
 
 
 
