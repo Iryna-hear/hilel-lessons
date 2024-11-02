@@ -12,14 +12,40 @@
 # print("OK")
 
 #ДЗ 7.2. Модифікувати рядок
-def correct_sentence(text):
+# def correct_sentence(text):
+#     if not text:
+#         return ""
+#     corrected_text = text[0].upper() + text[1:]
+#     if not corrected_text.endswith("."):
+#         corrected_text += "."
+#     return corrected_text
+#
+# assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
+# assert correct_sentence("hello") == "Hello.", 'Test2'
+# assert correct_sentence("Greetings. Friends") == "Greetings. Friends.", 'Test3'
+# assert correct_sentence("Greetings, friends.") == "Greetings, friends.", 'Test4'
+# assert correct_sentence("greetings, friends.") == "Greetings, friends.", 'Test5'
+# print('ОК')
+
+#Дз 7.3 Пошук підрядка
+
+# def second_index(text, some_str):
+#   first_index = text.find(some_str)
+#   if first_index == -1:
+#         return -1
+#   second1_index = text.find(some_str, first_index + 1)
+#   if second1_index == -1:
+#       return None
+#   return second1_index
+#
+# assert second_index("sims", "s") == 3, 'Test1'
+# assert second_index("find the river", "e") == 12, 'Test2'
+# assert second_index("hi", "h") is None, 'Test3'
+# assert second_index("Hello, hello", "lo") == 10, 'Test4'
+# print('ОК')
+
+# home work 7.4
 
 
 
-assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
-assert correct_sentence("hello") == "Hello.", 'Test2'
-assert correct_sentence("Greetings. Friends") == "Greetings. Friends.", 'Test3'
-assert correct_sentence("Greetings, friends.") == "Greetings, friends.", 'Test4'
-assert correct_sentence("greetings, friends.") == "Greetings, friends.", 'Test5'
-print('ОК')
 
