@@ -46,8 +46,6 @@
 
 # homework 7.4
 
-
-
 # def common_elements():
 #
 #     list3 = {x for x in range(0,100,3)}
