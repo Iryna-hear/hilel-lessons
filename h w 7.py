@@ -44,7 +44,53 @@
 # assert second_index("Hello, hello", "lo") == 10, 'Test4'
 # print('ОК')
 
-# home work 7.4
+# homework 7.4
+
+
+
+# def common_elements():
+#
+#     list3 = {x for x in range(0,100,3)}
+#     print(list3)
+#     list5 = {i for i in range(0,100,5)}
+#     print(list5)
+#     common_list = list3.intersection(list5)
+#     print(common_list)
+#     return common_list
+#
+#
+# assert common_elements() == {0, 75, 45, 15, 90, 60, 30}
+# print('OK')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
