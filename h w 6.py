@@ -35,4 +35,12 @@
 
 #ДЗ 6.3. Добуток чисел
 
-#
+# number = int(input("Enter number:"))
+# while number > 9:
+#     step_number = 1
+#     for sn  in str(number):
+#         step_number *= int(sn)
+#         number = step_number
+#     print(number)
+
+
