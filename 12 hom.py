@@ -73,11 +73,21 @@
 #
 # assert cart.get_total() == 40
 
+#ДЗ 12.1. Очистити текст від html-тегів
 
 
-
-
-
+# import re
+#
+#
+#
+#
+# with open("draft.html", 'r', encoding="utf-8") as file, open("cleaned.txt", "w", encoding= 'utf-8') as end_file:
+#    for line in file:
+#     text = re.sub(r"<[^>]*>", "", line)
+#     text = text.strip()
+#     print(text)
+#     if text:
+#      end_file.write(text + "\n")
 
 
 
